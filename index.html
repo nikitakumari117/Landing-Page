@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🪄 Exploring Supernova</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<style>
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: #000;
+  }
+  
+  .section1 {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .section2 {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+  }
+  
+  .div_content1 h1 {
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  .div_content1 p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+    padding: 20px;
+  }
+  
+
+  .buttons button {
+    background-color: #0074d9;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .buttons button:hover {
+    background-color: #868d94;
+  }
+
+  .overview {
+    padding: 38px;
+    text-align: center;
+    background-color: #111;
+  }
+  
+  .overview h2 {
+    font-size: 1.9rem;
+    margin-bottom: 20px;
+  }
+  
+  .overview p {
+    font-size: 1rem;
+    max-width: 762px;
+    margin: 0 auto;
+  }
+  
+  .example {
+    padding: 40px;
+    text-align: center;
+    background-color: #333333;
+  }
+  
+  .example h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .album {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .card {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 1rem;
+    color: #bbb;
+  }
+  
+  footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #111;
+  
+  }
+  </style>
+<body>
+
+  <section class="section1">
+    <div class="div_content1">
+      <h1>The Science Behind Supernovas</h1>
+      <p>Supernovas are powerful explosions marking the end of a star's life cycle. 
+        They occur when stars exhaust their nuclear fuel, leading to a core collapse or thermonuclear explosion. 
+        These cosmic events release immense energy, sometimes outshining entire galaxies.</p>
+      <div class="buttons">
+        <button onclick="showMessage('Explore more about Supernova')">Learn More</button>
+        <button onclick="universe()">After Supernova</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="overview">
+    <h2>What is a Supernova?</h2>
+    <p>
+        A supernova is a massive explosion that occurs when a star reaches the end of its life. 
+        This event releases an immense amount of energy, sometimes outshining entire galaxies for a short period.
+        Supernovas are critical to the universe, as they are responsible for dispersing elements like carbon, 
+        oxygen, and iron into space, which are building blocks for planets and life.
+    </p>
+    <h2>Types of Supernovas</h2>
+    There are two main types of supernovas:
+    <br><b>Type I Supernova ⭐</b> : <br>
+    Occurs in binary star systems where one of the stars is a white dwarf.
+    When the white dwarf accretes enough material from its companion star, it reaches a critical mass and undergoes a thermonuclear explosion.
+    <br><b>Type II Supernova ⭐</b> : <br>
+    Happens when a massive star (more than 8 times the Sun's mass) exhausts its nuclear fuel.
+    The star’s core collapses under gravity, leading to a violent explosion.
+
+  </section>
+
+  <section class="example">
+    <h2>Some Supernovas</h2>
+    <div class="album">
+      <div class="card">
+        <h3>Kelper's Supernova</h3>
+        <center><img src="img/galaxy copy.jpg" height="150px" width="180px"></center>
+      </div>
+      <div class="card">
+        <h3>Cassiopeia A</h3>
+        <center><img src="img/galaxy1 copy.jpg" height="150px" width="180px"></center>
+      </div>
+      <div class="card">
+        <h3>SN 1572</h3>
+        <center><img src="img/galaxy2 copy.jpg" height="150px" width="180px"></center>
+      </div>
+      <div class="card">
+        <center>
+        <h3>Asassn-15lh sn 2015l</h3>
+        <img src="img/galaxy3 copy.jpg" height="150px" width="180px"><h6>The Brightest Supernova</h6></center>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; just exploring science </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
